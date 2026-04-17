@@ -1,13 +1,13 @@
 alias peek _fish_peek
 
-function _fish_eza_install --on-event fish-eza_install
+function _fish_peek_install --on-event fish-peek_install
 end
 
-function _fish_eza_uninstall --on-event fish-eza_uninstall
+function _fish_peek_uninstall --on-event fish-peek_uninstall
     functions --erase peek
 end
 
-function _fish_eza_update --on-event fish-eza_update
-    _fish_eza_uninstall
-    _fish_eza_install
+function _fish_peek_update --on-event fish-peek_update
+    _fish_peek_uninstall
+    _fish_peek_install
 end

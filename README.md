@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="fish-eza" src="./assets/logo.png" height="200" />
+  <img alt="fish-peek" src="./assets/logo.png" height="200" />
 </div>
 
 # fish-peek
